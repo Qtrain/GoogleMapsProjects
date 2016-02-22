@@ -1,0 +1,40 @@
+{
+    border: 1px solid;
+}
+
+/* Start of Column CSS */
+#container2 {
+    clear:left;
+    float:left;
+    width:100%;
+    overflow:hidden;
+}
+#container1 {
+    float:left;
+    width:100%;
+    position:relative;
+    right:60%;
+}
+#col1 {
+    float:left;
+    width:80%;
+    position:relative;
+    left:60%;
+    overflow:hidden;
+}
+#col2 {
+    float:left;
+    width:15%;
+    position:relative;
+    left:66%;
+    overflow:hidden;
+}
+
+#map{
+    height:800px;
+    width:950px;
+}
+/* end */
+.location-panel{
+    padding:1em;
+}

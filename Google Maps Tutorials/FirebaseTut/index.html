@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style type="text/css">
+        html, body { height: 100%; margin: 0; padding: 0; }
+        #map { height: 100%; }
+    </style>
+    <!-- add import for firebase -->
+    <script src="https://cdn.firebase.com/js/client/2.2.1/firebase.js"></script>
+</head>
+<body>
+<div id="map"></div>
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAtUBf_Th52VwlZ9UOYQIb5a_A3TEc3Qwc
+        &libraries=visualization&callback=initMap">
+</script>
+<script src="map.js"> </script>
+</body>
+<!-- script tag call back that calls initMap() -->
+</html>
